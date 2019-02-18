@@ -1,0 +1,74 @@
+
+/*Navigation Bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    background-color: gold;
+    /*the nav bar wont move even if you scroll*/
+    position: relative;
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: #950740;
+    padding: 8px 16px;
+    text-decoration-color: #950740;
+}
+
+/* Change the link color on hover */
+
+.active {
+    background-color: #6F2232;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #950740;
+    color: white;
+}
+
+/*adding a border around menu*/
+
+li {
+    text-align: center;
+    float: left;
+    border-right: 1px solid white;
+}
+
+li:last-child {
+    border-right: none;
+}
+/*background for website*/
+.homeBackground{
+    background-image: url("");
+}
+
+.iframebigger{
+    width: 124%;
+    height: 140%;
+}
+
+.center{
+    display: grid;
+    grid-area:  1/4;
+}
+
+.header{
+    grid-column: 1;
+
+}
+.sectioncontact{
+    margin-right: 125%;
+    text-align: center;
+}
+
+.section {
+    grid-column: 2;
+}
+
+.contactBackground{
+    background-image: url("contactbackground.jpg");
+}
