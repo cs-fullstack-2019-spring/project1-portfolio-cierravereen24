@@ -41,10 +41,7 @@ li {
 li:last-child {
     border-right: none;
 }
-/*background for website*/
-.homeBackground{
-    background-image: url("");
-}
+
 
 .iframebigger{
     width: 124%;
@@ -68,7 +65,42 @@ li:last-child {
 .section {
     grid-column: 2;
 }
+/*Pages Background*/
+.homeBackground{
+    background-image: url("home.gif");
+}
 
+.resumeBackground{
+    background-image: url("resume.gif");
+
+}
 .contactBackground{
-    background-image: url("contactbackground.jpg");
+    background-image: url("contact.gif");
+}
+.weeklyBackground{
+    background-image: url("weekly.gif");
+}
+
+.projectBackground{
+    background-image: url("project.gif");
+}
+/*Ways to get text in the center*/
+.textCenter{
+    text-align: center;
+}
+/*chgange text color*/
+.textcolor{
+    text-decoration-color: #950740;
+}
+/*change text xoloe*/  .changecolor{
+    color: white;
+}
+                       /*adjust logo size*/
+.resizelogo{
+    height: 15%;
+    width: 15%;
+}
+/*moves item to center*/
+.marginmove{
+    margin-left: 45%;
 }

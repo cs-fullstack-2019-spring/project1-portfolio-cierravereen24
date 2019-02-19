@@ -1,0 +1,31 @@
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 65px;
+}
+
+.vertical {
+ border-left: 3px solid #3d2499;
+    border-right: 3px solid #3d2499;
+}
+
+.horizontal {
+    border-top: 3px solid #3d2499;
+    border-bottom: 3px solid #3d2499;
+}
+
+h1{
+    color: slategray;
+    text-align: center;
+}
+
+table{
+    margin:auto;
+}
+
+
+td:hover{
+    background-color: rgba(61, 36, 153, 0.32);
+}
+

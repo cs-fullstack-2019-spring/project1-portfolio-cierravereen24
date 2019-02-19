@@ -1,0 +1,39 @@
+header,table,footer{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+.height{
+    height: 75px;
+}
+
+.purpleBackground{
+    background: rebeccapurple;
+}
+
+.blueBackground{
+    background: midnightblue;
+}
+
+.goldBackground{
+    background: goldenrod;
+}
+
+.top{
+    border-top: 1px solid slategray;
+}
+
+.bottom{
+    border-bottom: 1px solid slategray;
+}
+
+.left{
+    border-left: 1px solid slategray;
+}
+
+.right{
+    border-right: 1px solid slategray;
+}
